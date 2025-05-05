@@ -40,6 +40,8 @@ def save():
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
+
+    # Create a dictionary to store new entry
     new_data = {
         website: {
             "email": email,
