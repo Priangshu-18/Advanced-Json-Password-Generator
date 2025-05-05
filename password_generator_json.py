@@ -132,5 +132,5 @@ generate_password_button.grid(row=3, column=3, columnspan=1)
 add_buttton = Button(text="Add", width=45, command=save)
 add_buttton.grid(row=4, column=1, columnspan=3)
 
-
+# Start the GUI event loop
 window.mainloop()
