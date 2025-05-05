@@ -22,7 +22,8 @@ def generate_password():
     password_letters = [random.choice(letters) for _ in range(nr_letters)]
     password_symbols = [random.choice(numbers) for _ in range(nr_numbers)]
     password_numbers = [random.choice(symbols) for _ in range(nr_symbols)]
-    
+
+    # Combine all characters into one list and shuffle
     password_list = password_letters + password_symbols + password_numbers
     random.shuffle(password_list)
     
