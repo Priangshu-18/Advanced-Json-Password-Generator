@@ -26,8 +26,10 @@ def generate_password():
     # Combine all characters into one list and shuffle
     password_list = password_letters + password_symbols + password_numbers
     random.shuffle(password_list)
-    
+
+    # Join list into a string
     password = "".join(password_list)
+    
     password_entry.insert(0, password)
 
 
