@@ -2,10 +2,10 @@
 
 # ---------------------------- IMPORT MODULES ------------------------------- #
 
-from tkinter import *
-from tkinter import messagebox
-import random
-import json
+from tkinter import *         # For GUI components
+from tkinter import messagebox # For popup messages
+import random                 # For generating random characters
+import json                   # For storing data in a JSON file
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
