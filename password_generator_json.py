@@ -48,7 +48,8 @@ def save():
             "password": password,       
             }
     }
-
+    
+    # Check for empty fields
     if len(website) == 0 or len(password) == 0:
         messagebox.showinfo(title="Oops", message="Please make sure that there is no empty field left.")
     else:
