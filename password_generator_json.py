@@ -29,7 +29,8 @@ def generate_password():
 
     # Join list into a string
     password = "".join(password_list)
-    
+
+    # Insert generated password into the entry box
     password_entry.insert(0, password)
 
 
