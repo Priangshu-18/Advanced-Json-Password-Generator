@@ -90,6 +90,7 @@ def find_password():
 
 # ---------------------------- UI SETUP ------------------------------- #
 
+# Create main window
 window = Tk()
 window.title("Password Generator")
 window.config(padx=50, pady=50)
