@@ -74,7 +74,7 @@ def save():
 
 # ---------------------------- FIND PASSWORD ------------------------------- #
 def find_password():
-    website = website_entry.get()
+    website = website_entry.get()  # Get website name from input
     try:
         with open("data.json") as data_file:
             data = json.load(data_file)
